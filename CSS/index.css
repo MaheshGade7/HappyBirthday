@@ -763,24 +763,22 @@ body, html{
 		height:200px;
 	}
 }
-@media screen and (max-width: 400px) and (max-height: 700px) {
+
+@media (max-width: 576px) {
 	.second--canvas {
-	  background-color: lightblue; /* Example background color */
-	  padding: 20px; /* Adjust padding */
+	  padding: 20px;
 	  text-align: center;
 	}
   
 	.content h2 {
-	  font-size: 40px; /* Adjust font size */
-	  color: darkblue;
+	  font-size: 20px;
 	}
   
 	.canvas--remove {
-	  display: none; /* Hide this div if needed */
+	  display: none; /* Hide this element on small screens if not needed */
 	}
   }
   
-
   
 
   @media screen and (max-width: 400px) and (max-height: 700px) {
